@@ -8,6 +8,7 @@ app.get("/api", (req) => {
   return `Hello, ${lng} ${lat}!`;
 });
 
+
 Bun.serve({
   port: 3000,
   fetch: app.fetch,
